@@ -48,7 +48,7 @@ function chatroomUpdate(text, isAi = false) {
 
 async function callServer(question) {
     try {
-        const response = await fetch('https://personalai-six.vercel.app/chat', {
+        const response = await fetch('https://dumm-lovat.vercel.app/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
